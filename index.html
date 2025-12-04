@@ -323,15 +323,16 @@
   <script>
     // --- DATA PRODUK: gunakan nama file gambar sesuai folder assets/images/ ---
     const PRODUCTS = [
-      // Minuman (varian)
-      {id:1, category:'minuman', title:'Ger Lemon Honey', price:'Rp 20.000', img:'../malav_jahe_merah/Foto_Produk/lemon honey.png', desc:'Kombinasi manis-asam untuk imunitas dan kesegaran.', variants:['Original','Less Sugar'] , bestseller:true},
-      {id:2, category:'minuman', title:'Greentee RedGingger', price:'Rp 20.000', img:'../malav_jahe_merah/Foto_Produk/Greentee.png', desc:'Green tea dengan sentuhan jahe merah, segar dan hangat.', variants:['Less Sugar','Honey'] , bestseller:true},
-      {id:3, category:'minuman', title:'Es Tea Ger', price:'Rp 15.000', img:'../malav_jahe_merah/Foto_Produk/es tea.png', desc:'Pilihan vegan dengan sentuhan teh tropis yang ringan.', variants:['Original','Less Sugar'] , bestseller:false},
-      {id:4, category:'minuman', title:'Jahe Merah Original', price:'Rp 10.000', img:'../malav_jahe_merah/Foto_Produk/original.png', desc:'Rasa klasik jahe merah murni, segar dan menghangatkan.', variants:['Pack Kecil','Pack Besar'], bestseller:true},
-      {id:5, category:'minuman', title:'Ger Coffe Creamy', price:'Rp 10.000', img:'../malav_jahe_merah/Foto_Produk/coffe creamy.png', desc:'Rasa kopi yang khas di padu creamy yang lembut, cocok untuk pecinta kopi.', variants:['Pack Kecil','Pack Besar'], bestseller:false},
-      //Serbuk Jahe Merah
-      {id:6, category:'serbuk', title:'Serbuk Jahe Merah', price:'Rp 25.000', img:'../malav_jahe_merah/Foto_Produk/Serbuk_jahe.jpeg', desc:'Jahe merah organik usia 11-12 bulan, mudah diseduh untuk minuman hangat/dingin, kaya antioksidan, meningkatkan imunitas, dan membantu pencernaan.', variants:['Pack Kecil','Pack Besar'], bestseller:false},
-    ];
+     // Minuman (varian)
+{id:1, category:'minuman', title:'Ger Lemon Honey', price:'Rp 20.000', img:'Foto_Produk/lemon honey.png', desc:'Kombinasi manis-asam untuk imunitas dan kesegaran.', variants:['Original','Less Sugar'] , bestseller:true},
+{id:2, category:'minuman', title:'Greentee RedGingger', price:'Rp 20.000', img:'Foto_Produk/Greentee.png', desc:'Green tea dengan sentuhan jahe merah, segar dan hangat.', variants:['Less Sugar','Honey'] , bestseller:true},
+{id:3, category:'minuman', title:'Es Tea Ger', price:'Rp 15.000', img:'Foto_Produk/es tea.png', desc:'Pilihan vegan dengan sentuhan teh tropis yang ringan.', variants:['Original','Less Sugar'] , bestseller:false},
+{id:4, category:'minuman', title:'Jahe Merah Original', price:'Rp 10.000', img:'Foto_Produk/original.png', desc:'Rasa klasik jahe merah murni, segar dan menghangatkan.', variants:['Pack Kecil','Pack Besar'], bestseller:true},
+{id:5, category:'minuman', title:'Ger Coffe Creamy', price:'Rp 10.000', img:'Foto_Produk/coffe creamy.png', desc:'Rasa kopi yang khas di padu creamy yang lembut, cocok untuk pecinta kopi.', variants:['Pack Kecil','Pack Besar'], bestseller:false},
+
+// Serbuk Jahe Merah
+{id:6, category:'serbuk', title:'Serbuk Jahe Merah', price:'Rp 25.000', img:'Foto_Produk/Serbuk_jahe.jpeg', desc:'Jahe merah organik usia 11-12 bulan, mudah diseduh untuk minuman hangat/dingin, kaya antioksidan, meningkatkan imunitas, dan membantu pencernaan.', variants:['Pack Kecil','Pack Besar'], bestseller:false},
+
 
     const productGrid = document.getElementById('productGrid');
     const allList = document.getElementById('allList');
@@ -395,4 +396,5 @@
   </script>
 </body>
 </html>
+
 
